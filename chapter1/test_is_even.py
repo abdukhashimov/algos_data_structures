@@ -11,7 +11,7 @@ class TestIsEven(unittest.TestCase):
                 "expected": True,
             },
             {
-                "input": 4001,
+                "input": 400000001,
                 "expected": False,
             },
         ]
