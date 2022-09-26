@@ -11,6 +11,21 @@ class TestIsMultiple(unittest.TestCase):
                 "m": 2,
                 "expected": True
             },
+            {
+                "n": 321,
+                "m": 3,
+                "expected": True
+            },
+            {
+                "n": 81,
+                "m": 9,
+                "expected": True
+            },
+            {
+                "n": 4,
+                "m": 3,
+                "expected": False
+            },
         ]
 
         for test_case in test_cases:
