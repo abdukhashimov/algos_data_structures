@@ -46,6 +46,10 @@ class TestSolutions(unittest.TestCase):
                 "items": [1],
                 "output": [1]
             },
+            {
+                "items": [1, 2],
+                "output": [2, 1]
+            },
         ]
 
         for test_case in test_cases:
